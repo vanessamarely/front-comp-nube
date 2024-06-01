@@ -1,0 +1,44 @@
+main {
+  min-height: 80vh;
+}
+
+.navbar {
+  background-color: #3186c9 !important;
+}
+
+.btn-primary {
+  background-color: #2196f3;
+  border-color: #2196f3;
+}
+
+.btn-primary:hover {
+  background-color: #3186c9;
+  border-color: #3186c9;
+}
+
+h1 {
+  color: #3186c9;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.informative-text {
+  color: #3186c9;
+  text-align: center;
+}
+
+text-danger {
+  margin: 1rem 0;
+}
+
+form {
+  margin: 0 auto;
+  width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+  form {
+    width: 100%;
+  }
+}
